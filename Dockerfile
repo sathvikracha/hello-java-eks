@@ -1,7 +1,7 @@
 FROM openjdk:21
 
 WORKDIR /app
-COPY Hello.java
+COPY Hello.java .
 
 RUN javac Hello.java
 
